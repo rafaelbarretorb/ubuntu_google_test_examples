@@ -15,5 +15,4 @@ add_executable(main src/main.cpp)
 target_link_libraries(main square_root_lib)
  
 add_executable(runTests test/tests.cpp)
-
 target_link_libraries(runTests GTest::GTest GTest::Main square_root_lib pthread)

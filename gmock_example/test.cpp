@@ -48,11 +48,4 @@ TEST(MyDBTest, LoginTest) {
   int retValue = db.Init("Terminator", "I'm Back");
   // Assert
   EXPECT_EQ(retValue, 1);
-
-
-}
-
-int main(int argc, char **argv) {
-  testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
 }
