@@ -65,7 +65,7 @@ $ sudo cp ./lib/x86_64-linux-gnu/libgmock*.a /usr/lib
 Clone this repository
 
 ```console
-$ git clone 
+$ git clone git@github.com:rafaelbarretorb/ubuntu_google_test_examples.git
 ```
 
 #### Test GTest
